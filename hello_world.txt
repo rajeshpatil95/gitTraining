@@ -1,1 +1,26 @@
-print("Hello World..!!);
+git init
+git status
+git add .
+git commit -m "my first commit"
+git checkout -b sprint_1
+git pull origin sprint_1
+git push origin sprint_1
+git remote add origin https://github.com/rajeshpatil95/gitTraining.git
+git push -f origin master
+git checkout helloWorld.txt
+git stash
+git diff hello_world.txt
+git log --oneline
+git rev-parse --abbrev-ref HEAD
+git branch -a
+git push origin --delete sprint_1
+
+Github has developed hub:
+
+hub is a command-line wrapper for git that makes you better at GitHub.
+
+which allows you to do that using
+
+hub pull-request
+
+
